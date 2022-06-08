@@ -29,9 +29,26 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
-
+	<repositories>
+		<repository>
+			<id>nexus</id>
+			<url>http://192.168.1.9:8081/repository/grouprepo/</url>
+		</repository>
+	</repositories>
 	<dependencies>
-		
+		<dependency>
+                         <groupId>g2</groupId>
+                         <artifactId>a2</artifactId>
+                         <version>0.0.2</version>
+                         <type>war</type>
+                </dependency>
+                <dependency>
+                         <groupId>g1</groupId>
+                          <artifactId>a1</artifactId>
+                          <version>3.0.0</version>
+                          <type>war</type>
+                </dependency>
+
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
