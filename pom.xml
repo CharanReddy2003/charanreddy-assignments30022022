@@ -36,12 +36,12 @@
 		</repository>
 	</repositories>
 	<dependencies>
-		<dependency>
+		<!--<dependency>
                          <groupId>g2</groupId>
                          <artifactId>a2</artifactId>
                          <version>0.0.2</version>
                          <type>war</type>
-                </dependency>
+                </dependency>-->
                 <dependency>
                          <groupId>g1</groupId>
                           <artifactId>a1</artifactId>
